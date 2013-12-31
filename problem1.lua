@@ -1,5 +1,5 @@
 -- problem1.lua 
-function acml.findMultiples(n) 
+function findMultiples(n) 
   local t, add = {},0;
   if ((n>0) and (n<n+1)) then
    for i=1,n do

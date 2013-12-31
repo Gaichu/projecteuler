@@ -1,5 +1,5 @@
 -- problem7.lua 
-function acml.isPrimeNew(p) -- prime check testing
+function isPrimeNew(p) -- prime check testing
   local isPrime = true;
   if ((p < 2) or ((p > 2) and (p%2 == 0))) then return not isPrime; end
   if p == 2 then return isPrime; end
@@ -8,7 +8,7 @@ function acml.isPrimeNew(p) -- prime check testing
   end
   return isPrime; 
 end
-function acml.primeGenNew(n) -- generate primes.
+function primeGenNew(n) -- generate primes.
   local t = {} -- hold primes 
   for i=1,n do 
     if acml.isPrimeNew(i) then 
