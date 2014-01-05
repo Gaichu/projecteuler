@@ -2,7 +2,7 @@
 -- will possibly work fine for N<=5*10^3. I just uploaded this so you can see the idea behind the problem
 function problem439(N)
   local add,it = 0,{} 
-  for j=0,N do -- generate two tables containing teh relevant numbers up to N 
+  for j=0,N do -- generate one table containing teh relevant numbers up to N 
     for i=1,N-j do
       it[#it+1] = (j+1)*(i+j)
     end
