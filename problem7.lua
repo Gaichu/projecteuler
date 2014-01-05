@@ -11,7 +11,7 @@ end
 function primeGenNew(n) -- generate primes.
   local t = {} -- hold primes 
   for i=1,n do 
-    if acml.isPrimeNew(i) then 
+    if isPrimeNew(i) then 
       t[#t+1] = i; 
     end
   end
