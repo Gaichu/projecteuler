@@ -13,7 +13,7 @@ function problem439(N)
       it[#it+1] = cp[i] 
     end
   end
-  local cp = nil
+  cp = nil
   for j=1,#it do 
     for i=1,#it do -- find divisors and add them up
       if ((it[j]%i==0)) then 
